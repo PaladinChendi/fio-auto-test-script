@@ -4,11 +4,11 @@ the script can execute test cases automatically, obtain and display test results
 
 ## referennce document
 fio official documents：https://fio.readthedocs.io/en/latest/fio_doc.html<br/>
-linux user manul：https://linux.die.net/man/1/fio<br/>
+linux user manual：https://linux.die.net/man/1/fio<br/>
 
-## usage method
-edit the fio.conf <br/>
-rename the conf file, suck as iodepth.conf, numjobs.conf and so on. <br/>
+## usage
+rename the conf file, such as runtime.conf, blocksize.conf, iodepth.conf, numjobs.conf, combo.conf and so on. <br/>
+edit the fio.conf, modify the parameters of test case. <br/>
 run the script: <br/>
 sh fio_cases.sh [runtime|blocksize|numjobs|iodepth|combo] <br/>
 
