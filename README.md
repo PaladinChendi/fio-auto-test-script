@@ -7,7 +7,9 @@ fio official documents：https://fio.readthedocs.io/en/latest/fio_doc.html<br/>
 linux user manul：https://linux.die.net/man/1/fio<br/>
 
 ## usage method
-edit the fio.conf, rename the conf file, suck as iodepth.conf, numjobs.conf and so on. <br/>
+edit the fio.conf <br/>
+rename the conf file, suck as iodepth.conf, numjobs.conf and so on. <br/>
+run the script: <br/>
 sh fio_cases.sh [runtime|blocksize|numjobs|iodepth|combo] <br/>
 
 ## example
